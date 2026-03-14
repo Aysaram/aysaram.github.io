@@ -3,10 +3,10 @@ layout: single
 title: "Introduction"
 permalink: /
 author_profile: true
-classes: wide
+classes: small_header
 
 header:
-  overlay_image: /assets/images/Aedes_Standing.png
+  image: /assets/images/Aedes_Standing.png
   image_description: "Made by me"
   overlay_filter: 0.25
 
