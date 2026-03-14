@@ -4,9 +4,9 @@ title: Projects
 ---
 
 <div class="proj-section">
-  <a href="/assets/projects/Aedes_Anopheles_amalgamation.png">
+  <a href="/assets/projects/Aedes_Anopheles_amalgamation.jpg">
     <img class="proj-section-img"
-         src="/assets/projects/Aedes_Anopheles_amalgamation.png"
+         src="/assets/projects/Aedes_Anopheles_amalgamation.jpg"
          alt="aedes_anopheles_amalgamation">
   </a>
   
