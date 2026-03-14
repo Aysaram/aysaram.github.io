@@ -1,0 +1,468 @@
+---
+---
+/* Modern, clean font system */
+$header-font-family: "Inter", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+/* Optional fine-tuning */
+$base-font-size: 16px;
+$heading-line-height: 1.25;
+@import "minimal-mistakes/skins/contrast"; /* or air */
+@import "minimal-mistakes";
+
+/* ================================================= */
+/* ===== YOUR CUSTOM STYLES (moved from assets/main.scss) ===== */
+/* ================================================= */
+/* Global typography refinement */
+html {
+  font-size: 16px; /* default is often 17–18px in MM */
+}
+
+body {
+  line-height: 1.5; /* tighter than default, still readable */
+}
+
+.page__content p { /* reduce paragraph spacing */ 
+  margin-bottom: 0.9rem;
+}
+
+.page__content h1 { /* reduce font sizes for titles, less shouty */ 
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.page__content h2 {
+  font-size: 1.45rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.page__content h3 {
+  font-size: 1.15rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.page__content {  /* make reading width wider */
+  max-width: 72ch;
+}
+
+.page__content ul,
+.page__content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem; /* <- this is what was missing */
+}
+
+.page__content li {
+  margin-bottom: 0.25rem;
+}
+
+.masthead__menu-item { /*reduce navigation bar */
+  font-size: 0.95rem;
+} 
+
+/* Publications layout */
+.pub {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+  margin: 24px 0;
+  align-items: start;
+}
+
+.pub-fig {
+  width: 150%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pub-text p {
+  margin: 0.4em 0;
+}
+
+/* Projects layout */
+.proj-section {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  margin: 40px 0;
+  align-items: start;
+}
+
+.proj-section-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.proj-section-text h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .proj-section {
+    grid-template-columns: 1fr;
+  }
+}
+/* CV layout */
+
+.cv-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 0.25rem 0 0.55rem;
+}
+
+.cv-title {
+  flex: 1;
+  min-width: 0; /* allows proper wrapping behavior */
+}
+
+.cv-date {
+  white-space: nowrap;
+  font-style: italic;
+  opacity: 0.85;
+}
+
+/* Mobile: allow stacking if needed */
+@media (max-width: 600px) {
+  .cv-item {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .cv-date {
+    align-self: flex-start;
+  }
+}
+
+/* Home nav buttons */
+.home-buttons a.btn {
+  color: #4f6f5a !important;
+  border: 1px solid #4f6f5a !important;
+  background: transparent !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.home-buttons a.btn:hover {
+  background: #4f6f5a !important;
+  color: #ffffff !important;
+}
+
+/* Typography */
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page__content p {
+  line-height: 1.65;
+}
+
+.page__content {
+  font-size: 1.05rem;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  max-width: 140px;
+}
+
+/* ===== Homepage mosaic tiles ===== */
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: 150px;
+  gap: 0;
+  margin: 22px 0 10px;
+}
+
+.tile {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 14px;
+  text-decoration: none !important;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  transform: translateZ(0);
+}
+
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.18));
+  transition: opacity 0.15s ease;
+}
+
+.tile__label {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: 1.05rem;
+  padding: 0;
+  opacity: 0.8;
+  background: none;
+}
+
+.tile:hover {
+  outline: 2px solid rgba(79, 111, 90, 0.55);
+}
+
+.tile:hover::before {
+  opacity: 0.9;
+}
+
+/* Mosaic placement */
+.tile--projects {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.tile--publications {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.tile--teaching {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.tile--cv {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+}
+
+.tile--art {
+  grid-column: 3 / span 2;
+  grid-row: 3 / span 1;
+}
+.tile-grid { grid-auto-rows: 160px; }
+.tile--projects { min-height: 334px; }
+
+/* Background images */
+.tile--projects { background-image: url("/assets/home/projects.jpg"); }
+.tile--publications { background-image: url("/assets/home/publications.png"); }
+.tile--art { background-image: url("/assets/home/art.jpg"); }
+.tile--teaching { background-image: url("/assets/home/teaching.jpg"); }
+.tile--cv { background-image: url("/assets/home/cv.jpg"); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .tile-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    grid-auto-rows: auto; /* <- key  for non-overlapping tiles on mobila */
+  }
+
+  /* Make each tile control its own height */
+  .tile {
+    min-height: 140px;
+  }
+
+  /* Disable pinned mosaic placement on mobile */
+  .tile--projects,
+  .tile--publications,
+  .tile--art,
+  .tile--teaching,
+  .tile--cv {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  /* Hero tile taller */
+  .tile--projects {
+    min-height: 220px;
+  }
+}
+
+.page__content img {
+  border-radius: 0 !important;
+}
+
+/* Top navigation: remove dark red accent */
+.masthead__menu-item a {
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: inherit;
+  box-shadow: none;
+}
+
+/* Active page link */
+.masthead__menu-item .active {
+  color: inherit;
+  box-shadow: none;
+}
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: #4f6f5a; /* same green as tiles */
+}
+
+.masthead__menu-item .active {
+  color: #4f6f5a;
+}
+.btn {
+  background-color: #4f6f5a;
+  border-color: #4f6f5a;
+}
+
+.btn:hover {
+  background-color: #3f5c4b;
+  border-color: #3f5c4b;
+}
+.masthead__menu-item a {
+  box-shadow: none !important;
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus,
+.masthead__menu-item .active {
+  box-shadow: none !important;
+}
+
+@media print {
+  .masthead,
+  .page__footer,
+  .cv-download {
+    display: none !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+}
+
+/* Print-only header (hidden on screen) */
+.cv-print-header {
+  display: none;
+}
+
+/* Web download button styling */
+.cv-download {
+  margin: 0 0 1.25rem 0;
+}
+
+.cv-download__btn {
+  display: inline-block;
+  padding: 0.55rem 0.85rem;
+  border-radius: 0;
+  border: 1px solid rgba(0,0,0,0.18);
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  background: rgba(0,0,0,0.02);
+}
+
+.cv-download__btn:hover {
+  background: rgba(0,0,0,0.06);
+}
+
+@media print {
+  /* Show your name in PDF */
+  .cv-print-header {
+    display: block !important;
+    margin-bottom: 1.2rem;
+  }
+
+  .cv-print-header h1 {
+    margin: 0 0 0.25rem 0;
+    font-size: 22pt;
+    line-height: 1.1;
+  }
+
+  .cv-print-header p {
+    margin: 0;
+    font-size: 10.5pt;
+    opacity: 0.85;
+  }
+
+  /* Hide download link in PDF */
+  .cv-download {
+    display: none !important;
+  }
+}
+/* Top navigation underline: dark green instead of red */
+.masthead__menu-item a {
+  box-shadow: inset 0 -2px 0 rgba(79, 111, 90, 0); /* hidden by default */
+  transition: box-shadow 0.15s ease;
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus,
+.masthead__menu-item .active {
+  box-shadow: inset 0 -2px 0 rgba(79, 111, 90, 0.85);
+}
+
+@media print {
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.25;
+    color: #111;
+  }
+
+  h1 { font-size: 22pt; margin: 0 0 6pt 0; }
+  h2 {
+    font-size: 12.5pt;
+    margin: 14pt 0 6pt 0;
+    padding-bottom: 3pt;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .header-meta {
+    font-size: 10.5pt;
+    color: #333;
+    margin-bottom: 10pt;
+  }
+
+  /* CV entry: two-column layout */
+  .cv-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10pt;
+    margin: 0 0 7pt 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .cv-title { font-weight: 700; }
+  .cv-org { font-weight: 500; }
+  .cv-loc { color: #555; }
+  .cv-date {
+    color: #333;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  /* Optional: subsection labels like “Chemical analysis & spectroscopy” */
+  .cv-subhead {
+    font-weight: 700;
+    margin: 8pt 0 2pt 0;
+  }
+  .cv-subtext { margin: 0 0 6pt 0; }
+
+  a { color: inherit; text-decoration: none; }
+}
