@@ -6,9 +6,8 @@ author_profile: true
 classes: wide
 
 header:
-  image: /assets/images/Aedes_Standing.png
+  image: /assets/images/Aedes_Standing.png width="500" height="auto"
   image_description: "Aedes aegypti standing"
-  style: "width:500px; height:auto;"
   overlay_filter: 0.25
 ---
 I study the interface between the external chemical world and the internal neuronal world of disease vector mosquitoes, with a focus on the molecular interactions between odorant receptors and their cognate ligands. I do this through lab work in terms of electrophysiology and computational modelling through molecular docking.
