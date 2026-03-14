@@ -5,6 +5,9 @@
 
 title: Max Michael Andersson
 subtitle: chemical ecology · neuroethology · insect olfaction · disease vectors · molecular interactions
+header:
+  overlay_image: /assets/images/Aedes_Standing.png
+
 email: max.m.andersson@protonmail.com | max.andersson@slu.se
 site.description: >- # this means to ignore newlines until "baseurl:"
   Chemosensory receptors and molecular interactions with cognate chemical ligands, disease vector management, peripheral neuroethology in mosquitoes.
