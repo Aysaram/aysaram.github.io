@@ -8,8 +8,6 @@ subtitle: chemical ecology · neuroethology · insect olfaction · disease vecto
 email: max.m.andersson@protonmail.com | max.andersson@slu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Chemosensory receptors and molecular interactions with cognate chemical ligands, disease vector management, peripheral neuroethology in mosquitoes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aysaram
 
 # Build settings
