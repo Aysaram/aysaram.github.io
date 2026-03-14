@@ -7,7 +7,8 @@ title: Projects
   <a href="/assets/images/Aedes_Anopheles_amalgamation.jpg">
     <img class="proj-section-img"
          src="/assets/images/Aedes_Anopheles_amalgamation.jpg"
-         alt="aedes_anopheles_amalgamation">
+         alt="aedes_anopheles_amalgamation"
+         style="width:200px; height:auto;">
   </a>
   
 <div class="proj-section-text">
