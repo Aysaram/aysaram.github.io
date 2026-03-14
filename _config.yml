@@ -17,6 +17,3 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-google_fonts:
-  - name: "Libre Baskerville"
-    weights: "400,700"
