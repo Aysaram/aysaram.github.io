@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 
 header:
-  image: /assets/images/Aedes_standing.png
+  overlay_image: /assets/images/Aedes_Standing.png
   image_description: "Made by me"
   overlay_filter: 0.25
 
