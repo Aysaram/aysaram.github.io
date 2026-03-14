@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 
 header:
-  image: /assets/images/Aedes_standing.png
+  image: /assets/images/Aedes_standing.jpg
   image_description: "Aedes aegypti standing"
   overlay_filter: 0.25
 ---
