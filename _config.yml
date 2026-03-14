@@ -8,7 +8,7 @@ subtitle: chemical ecology · neuroethology · insect olfaction · disease vecto
 email: max.m.andersson@protonmail.com | max.andersson@slu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my research-oriented webpage! I am Max, a current PhD student in chemical ecology.
-  In this webpage, you can find out more about my research, projects that I have ongoing and potentially some personal stuff as well!
+  On this webpage, you can find out more about my research, ongoing projects, and potentially some personal stuff as well!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aysaram
