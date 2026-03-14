@@ -7,7 +7,7 @@ title: Projects
   <a href="/assets/projects/Aedes_Anopheles_amalgamation.png">
     <img class="proj-section-img"
          src="/assets/projects/Aedes_Anopheles_amalgamation.png"
-         alt="Deorphanising Odorant Receptors">
+         alt="aedes_anopheles_amalgamation">
   </a>
   
 <div class="proj-section-text">
