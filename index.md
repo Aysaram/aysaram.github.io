@@ -7,7 +7,7 @@ classes: wide
 
 header:
   image: /assets/images/Aedes_Standing.png
-  image_description: "Aedes aegypti standing;
+  image_description: "Aedes aegypti standing";
   style: "width:500px; height:auto;"
   overlay_filter: 0.25
 ---
