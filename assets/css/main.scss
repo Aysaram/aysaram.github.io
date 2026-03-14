@@ -1,5 +1,8 @@
 ---
 ---
+.small_header .page__hero--overlay {
+  min-height: 200px;
+}
 /* Modern, clean font system */
 $header-font-family: "Inter", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
