@@ -16,6 +16,15 @@ $heading-line-height: 1.25;
 /* ================================================= */
 /* ===== YOUR CUSTOM STYLES (moved from assets/main.scss) ===== */
 /* ================================================= */
+/* Smaller header image */
+.page__hero img {
+  max-height: 180px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Global typography refinement */
 html {
   font-size: 16px; /* default is often 17–18px in MM */
@@ -465,8 +474,4 @@ a:hover {
   .cv-subtext { margin: 0 0 6pt 0; }
 
   a { color: inherit; text-decoration: none; }
-}
-
-.page__hero img {
-  max-height: 500px;
 }
