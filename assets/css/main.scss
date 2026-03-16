@@ -17,6 +17,11 @@ $heading-line-height: 1.25;
 /* ===== YOUR CUSTOM STYLES (moved from assets/main.scss) ===== */
 /* ================================================= */
 /* Smaller header image */
+
+.page__hero {
+  background-color: white;
+}
+
 .page__hero img {
   max-height: 500px;
   width: auto;
