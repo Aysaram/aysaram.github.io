@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: "Introduction"
 permalink: /
 author_profile: true
