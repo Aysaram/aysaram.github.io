@@ -19,9 +19,3 @@ In my current position as a PhD student at the unit of Chemical Ecology in the D
   </div>
   </div>
   
-
-  
-
-
-  
-</div>
