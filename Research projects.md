@@ -16,9 +16,9 @@ title: Research projects
 </div>
 ---
 <div class="proj-section">
-  <a href="/assets/images/Drosophila_sideview.png">
+  <a href="/assets/images/Aedes_head_w.png">
     <img class="proj-section-img"
-         src="/assets/images/Drosophila_sideview.png"
+         src="/assets/images/Aedes_head_w.png"
          alt="Terpene clade project">
   </a>
 
