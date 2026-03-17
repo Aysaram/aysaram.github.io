@@ -19,10 +19,12 @@ $heading-line-height: 1.25;
 /* Smaller header image */
 
 /* Force white header background */
-.page__hero,
-.page__hero .wrapper,
-.page__hero--overlay {
-  background-color: #ffffff !important;
+.page__hero {
+  background: #ffffff !important;
+}
+
+.page__hero::before {
+  background: none !important;
 }
 
 .page__hero img {
