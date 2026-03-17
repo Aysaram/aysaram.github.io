@@ -6,7 +6,7 @@ author_profile: true
 classes: small_header
 
 header:
-  image: /assets/images/Aedes_Standing.jpg
+  image: /assets/images/Aedes_Standing.png
   image_description: "Made by me"
   overlay_filter: 0.25
 
