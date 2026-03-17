@@ -13,10 +13,11 @@ $heading-line-height: 1.25;
 @import "minimal-mistakes/skins/contrast"; /* or air */
 @import "minimal-mistakes";
 
-.page,
-.page__inner-wrap,
-.page__content {
-  border: 2px solid red;
+.wide-page .page,
+.wide-page .page__inner-wrap,
+.wide-page .page__content {
+  max-width: 1100px;
+  width: 100%;
 }
 
 /* Force white header background */
