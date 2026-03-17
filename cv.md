@@ -12,7 +12,7 @@ classes: wide
 </div>
 
 <p class="cv-download">
-  <a class="cv-download__btn" href="/assets/cv/Short CV - Max Andersson 2026">Download CV (PDF)</a>
+  <a class="cv-download__btn" href="assets/cv/Short CV - Max Andersson 2026.pdf">Download CV (PDF)</a>
 </p>
 
 {% include_relative cv_source.md %}
