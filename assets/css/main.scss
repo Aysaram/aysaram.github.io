@@ -116,6 +116,9 @@ body {
 
 .proj-section-text h2 {
   margin-top: 0;
+  flex: 1;
+  max-width: none;
+  
 }
 
 @media (max-width: 800px) {
