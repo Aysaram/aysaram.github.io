@@ -18,16 +18,19 @@ $heading-line-height: 1.25;
 /* ================================================= */
 /* Smaller header image */
 
+/* Force white header background */
+.page__hero,
+.page__hero .wrapper,
+.page__hero--overlay {
+  background-color: #ffffff !important;
+}
+
 .page__hero img {
   max-height: 500px;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.page__hero {
-  background-color: white;
 }
 
 /* Global typography refinement */
