@@ -3,9 +3,9 @@ layout: single
 title: Research projects
 ---
 <div class="proj-section">
-  <a href="/assets/images/Aedes_Anopheles_amalgamation.png">
+  <a href="/assets/images/Drosophila_sideview.png">
     <img class="proj-section-img"
-         src="/assets/images/Aedes_Anopheles_amalgamation.png"
+         src="/assets/images/Drosophila_sideview.png"
          alt="aedes_anopheles_amalgamation"
          style="width:200px; height:auto;">
 
