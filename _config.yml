@@ -9,6 +9,7 @@ email: max.m.andersson@protonmail.com | max.andersson@slu.se
 site.description: >- # this means to ignore newlines until "baseurl:"
   Chemosensory receptors and molecular interactions with cognate chemical ligands, disease vector management, peripheral neuroethology in mosquitoes.
 github_username:  aysaram
+author: "Max"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
