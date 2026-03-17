@@ -6,7 +6,7 @@
 title: "Max Michael Andersson"
 subtitle: "chemical ecology · neuroethology · insect olfaction · disease vectors · molecular interactions"
 description: "Chemosensory receptors and molecular interactions with cognate chemical ligands, disease vector management, peripheral neuroethology in mosquitoes."
-author_profile: "Max"
+author: "Max"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
