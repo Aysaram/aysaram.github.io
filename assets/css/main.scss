@@ -13,9 +13,6 @@ $heading-line-height: 1.25;
 @import "minimal-mistakes/skins/contrast"; /* or air */
 @import "minimal-mistakes";
 
-/* ================================================= */
-/* ===== YOUR CUSTOM STYLES (moved from assets/main.scss) ===== */
-/* ================================================= */
 /* Smaller header image */
 
 /* Force white header background */
@@ -290,7 +287,7 @@ a:hover {
 
   /* Make each tile control its own height */
   .tile {
-    min-height: 140px;
+    max-height: 200px;
   }
 
   /* Disable pinned mosaic placement on mobile */
