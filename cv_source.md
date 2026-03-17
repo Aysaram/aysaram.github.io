@@ -52,7 +52,7 @@
 
 <div class="cv-item">
   <span class="cv-title"><strong>Research assistant</strong> - Swedish University of Agricultural Sciences, Alnarp, Sweden</span>
-  <span class="cv-date">202–2023</span>
+  <span class="cv-date">2022–2023</span>
 </div>
 
 ---
@@ -77,7 +77,7 @@ GC–MS data analysis (MassHunter, MZmine2), data visualisation in **R** and **R
 ## Merits and Awards
 
 <div class="cv-item">
-  <span class="cv-title"><strong>Travel Grant</strong>, Larssons fond</span>
+  <span class="cv-title"><strong>Travel Grant</strong></span>
   <span class="cv-date">2024</span>
 </div>
 
