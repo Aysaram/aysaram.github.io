@@ -1,1 +1,27 @@
+Max:
+  name: "Max Michael Andersson"
+  avatar: ""
+  bio: "chemical ecology · neuroethology · insect olfaction · disease vectors · molecular interactions"
+  location: "SLU Alnarp, Sweden"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:max.andersson@slu.se"
+
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/my-orcid?orcid=0009-0005-5917-1714"
+
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/aysaram"
+
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Max-Andersson-7"
+
+    - label: "University"
+      icon: "fas fa-university"
+      url: "https://www.slu.se/en/profilepages/a/max-andersson/"
 
