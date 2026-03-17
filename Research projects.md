@@ -15,3 +15,19 @@ title: Research projects
   </p>
 </div>
   
+<div class="proj-section">
+  <a href="/assets/images/Drosophila_sideview.png">
+    <img class="proj-section-img"
+         src="/assets/images/Drosophila_sideview.png"
+         alt="Terpene clade project">
+  </a>
+
+  <div class="proj-section-text">
+    <h2>Functional genomics of a clade of terpene-sensing odorant receptors in _Aedes aegypti_</h2>
+    <p>
+      While mosquitoes detect a wide range of chemical ligands, we hypothesise that a clade of receptors in the yellow fever vector _Aedes aegypti_ is tuned to terpenoid compounds.
+     </p>
+  </div>
+</div> 
+
+---
