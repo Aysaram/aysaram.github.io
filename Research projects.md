@@ -18,7 +18,7 @@ title: Research projects
 <div class="proj-section-text>
     <h2>Functional characterisation of the terpene sensing Or clade in _Aedes aegypti_</h2>
     <p>
-  
+  Placeholder text for now
     </p>
   </div>
 </div>
