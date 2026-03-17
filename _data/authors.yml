@@ -11,7 +11,7 @@ Max:
 
     - label: "ORCID"
       icon: "fab fa-orcid"
-      url: "https://orcid.org/my-orcid?orcid=0009-0005-5917-1714"
+      url: "https://orcid.org/0009-0005-5917-1714"
 
     - label: "GitHub"
       icon: "fab fa-github"
