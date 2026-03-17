@@ -15,8 +15,8 @@ I study the interface between the external chemical world and the internal neuro
 
 <div class="title.grid">
 
-  <a class="tile tile--Research projects" href="/Research projects.html">
-    <span class="tile__label">Research projects</span>
+  <a class="tile tile--projects" href="/Research projects.html">
+    <span class="tile__label">projects</span>
   </a>
 
   <a class="tile tile--publications" href="/publications.html">
