@@ -70,7 +70,7 @@ Junior lab manager for the electrophysiology labs at the department.
 DNA extraction, preparation and PCR, junior lab manager for the molecular labs at the department.
 
 **Data analysis and computer knowledge**  
-GC–MS data analysis (MassHunter, MZmine2), data visualisation in **R** and **R Markdown**, basic Linux including Git, Virtual machines, basic python.
+GC–MS data analysis (MassHunter, ChemStation, AMDIS, NIST), data visualisation in **R** and **R Markdown**, basic Linux including Git, Virtual machines, basic python.
 
 ---
 
