@@ -28,7 +28,7 @@ Welcome to my website! I study the interface between the external chemical world
   </a>
 
   <a class="tile tile--concepts" href="/concepts/">
-  <span class="tile__label">Scientific concepts"</span>
+  <span class="tile__label">Scientific concepts</span>
   </a>
   
 </div>
